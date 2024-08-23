@@ -1,0 +1,29 @@
+.container{
+  padding-inline: 163px;
+  max-width: 1040px;
+  margin-inline: auto;
+  
+}
+.subtitle{
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+.text-sm{
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
+.grid{
+  display: grid;
+}
+.gap{
+  gap: 24px;
+}
+
+
+
+
+
+
+
+  
+  

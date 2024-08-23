@@ -31,3 +31,28 @@
   --text-md:400 16px/140% var(--font-family-maven-pro);
   --text-sm:400 14px/140% var(--font-family-maven-pro);
 }
+
+.app{
+  background-image: url(/assets/images/Intro.jpg);
+  background-size: cover;
+}
+h1{
+  font: var(--h1);
+  color: var(--gray-600);
+}
+h2{
+  font: var(--h2);
+  color: var(--gray-600);
+}
+span{
+  color: var(--red);
+}
+main{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+

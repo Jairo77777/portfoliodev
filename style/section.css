@@ -1,0 +1,36 @@
+#header{
+    justify-items: center;
+  margin-top: 120px;
+  img{
+    width: 96px;
+    height: 96px;
+  }
+}
+#tags{
+  display: flex;
+  align-items: center;
+  padding-block: 80px 183px;
+  gap: 16px;
+  max-width: 734px;
+  max-height: 40px;
+  
+
+  button{
+    display: flex;
+    align-items: center;
+    gap: 8px ;
+
+    padding: 9px 16px;
+
+    border-radius: 999px;
+    border: none;
+  
+    font: var(--text-md);
+  
+    color: var(--gray-500);
+    background: var(--gray-300);}
+    
+}
+#main{
+  padding-block: 72px 56px;
+}
