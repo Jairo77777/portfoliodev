@@ -1,18 +1,23 @@
 #header{
     justify-items: center;
-  margin-top: 120px;
+    margin-top: 120px;
+    p{
+      padding-top: 56px;
+    }
   img{
     width: 96px;
     height: 96px;
   }
 }
+
 #tags{
-  display: flex;
+  
   align-items: center;
   padding-block: 80px 183px;
   gap: 16px;
   max-width: 734px;
   max-height: 40px;
+  margin-inline: auto;
   
 
   button{
@@ -31,6 +36,41 @@
     background: var(--gray-300);}
     
 }
-#main{
-  padding-block: 72px 56px;
+
+#card{
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1040px;
+  margin-inline: auto;
+  padding-bottom:144px ;
+  
+  img{
+    margin: 12px;
+    border-radius: 8px;
+    width: 306px;
+    height: 156px;
+  }
+  figure{
+    border-radius: 12px;
+    width: 330px;
+    height: 280px;
+    background: var(--gray-300);
+
+    h3{
+      padding-block: 10px 8px;
+      padding-left: 16PX;
+    }
+    p{
+      padding-inline: 16px;
+    }
+
+  }
+}
+
+#services{
+  background: var(--gray-100);
+  
+  header{
+    padding-block: 88px 56px;
+  }
+  
 }
