@@ -102,3 +102,33 @@
   }
 
 }
+
+#contatos{
+
+  .linkedin{
+    &:hover{
+      background-image: url(/assets/icons/Vector-2\ -hover.svg);
+    }
+  }
+  button{
+
+    align-items: center;
+    gap: 12px;
+
+    background: var( --gray-300);
+    color: var(--gray-500);
+
+    height: 68px;
+    width: 400px;
+    padding-inline: 12px 20px;
+
+    border-radius: 8px;
+    border: none;
+
+    &:hover{
+      border: 2px solid var(--blue);
+      
+    }
+    
+  }
+}

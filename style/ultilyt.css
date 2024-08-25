@@ -18,12 +18,16 @@
 .flex{
   display: flex;
 }
+.gap-16{
+  gap: 16px;
+}
 .gap-24{
   gap: 24px;
 }
 .justify-items{
   justify-items: center;
 }
+
 
 
 
