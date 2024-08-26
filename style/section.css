@@ -8,6 +8,18 @@
     width: 96px;
     height: 96px;
   }
+  
+  .icon{
+    
+    position: relative;
+    bottom: 35px;
+    left:66px ;
+    width: 31px;
+    height: 25px;
+    
+  }
+  
+
 }
 
 #tags{
@@ -104,16 +116,26 @@
 }
 
 #contatos{
+  padding-bottom: 200px;
 
-  .linkedin{
-    &:hover{
+  .git {
+    &:hover img{
+      
       background-image: url(/assets/icons/Vector-2\ -hover.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left 1px;
+      background-size: cover;
+
+      position: relative;
+      z-index: auto;
     }
   }
   button{
-
+    
     align-items: center;
     gap: 12px;
+    
 
     background: var( --gray-300);
     color: var(--gray-500);
@@ -125,9 +147,14 @@
     border-radius: 8px;
     border: none;
 
+    
+
     &:hover{
       border: 2px solid var(--blue);
       
+    }
+    .icon-seta{
+      margin-left: auto;
     }
     
   }
