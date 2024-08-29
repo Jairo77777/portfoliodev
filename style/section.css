@@ -118,19 +118,7 @@
 #contatos{
   padding-bottom: 200px;
 
-  .git {
-    &:hover img{
-      
-      background-image: url(/assets/icons/Vector-2\ -hover.svg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: left 1px;
-      background-size: cover;
-
-      position: relative;
-      z-index: auto;
-    }
-  }
+  
   button{
     
     align-items: center;
@@ -151,6 +139,9 @@
 
     &:hover{
       border: 2px solid var(--blue);
+      .hover{
+        filter: invert(55%) sepia(57%) saturate(1658%) hue-rotate(180deg) brightness(89%) contrast(92%);
+      }
       
     }
     .icon-seta{
